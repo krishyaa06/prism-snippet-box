@@ -1,0 +1,19 @@
+    <section class="box">
+      <aside class="card side">
+        <input id="q" placeholder="Search snippets…" aria-label="Search" />
+        <div class="chips" id="langs"></div>
+        <div class="list" id="list"></div>
+        <div class="row"><button class="btn small primary" id="new">+ New</button><button class="btn small" id="vsc">VS Code JSON</button><button class="btn small" id="exp">Backup</button><label class="btn small" for="imp">Restore</label><input type="file" id="imp" accept=".json" hidden /></div>
+      </aside>
+      <div class="stack">
+        <div class="card">
+          <div class="card-title"><input id="title" class="title-in" aria-label="Title" /><div class="row"><button class="btn small" id="fav">☆</button><button class="btn small" id="del">Delete</button></div></div>
+          <div class="grid g3 meta"><label class="field"><span>Language</span><select id="lang"></select></label><label class="field"><span>Prefix (VS Code)</span><input id="prefix" /></label><label class="field"><span>Tags</span><input id="tags" /></label></div>
+          <textarea id="code" class="code" spellcheck="false" aria-label="Code"></textarea>
+        </div>
+        <div class="card">
+          <div class="card-title"><h2>Preview</h2><div class="row"><span class="pill" id="lines"></span><button class="btn small primary" id="copy">Copy code</button></div></div>
+          <pre class="hl" id="hl"></pre>
+        </div>
+      </div>
+    </section>

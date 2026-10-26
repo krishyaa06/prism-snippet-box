@@ -1,0 +1,30 @@
+{
+  "name": "prism-snippet-box",
+  "version": "1.0.0",
+  "description": "Local-first code snippet manager with highlighting for 10 languages, auto-detect, tags, favourites and VS Code export.",
+  "scripts": {
+    "test": "node --test",
+    "start": "npx --yes serve ."
+  },
+  "keywords": [
+    "snippets",
+    "code-snippets",
+    "vscode",
+    "syntax-highlighting",
+    "developer-tools",
+    "productivity",
+    "dev-tools",
+    "vanilla-js",
+    "prism-protocol"
+  ],
+  "author": "Soumya Bhandare (krishyaa06)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishyaa06/prism-snippet-box.git"
+  },
+  "homepage": "https://krishyaa06.github.io/prism-snippet-box/",
+  "engines": {
+    "node": ">=18.17"
+  }
+}
